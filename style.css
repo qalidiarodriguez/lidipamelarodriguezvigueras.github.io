@@ -1,45 +1,103 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #fefefe;
+  background: #fffafc;
   color: #333;
+  scroll-behavior: smooth;
 }
 
 header {
-  background: #e8d4f0;
-  color: #4b0082;
+  background: linear-gradient(to bottom, #fcddec, #e6d8f4);
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 1rem;
+}
+
+.hero img.foto-perfil {
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #e6c98f;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #7e57c2;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: #a55fc2;
+}
+
+.frase {
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #a789b5;
 }
 
 nav {
-  background: #fff;
+  background: #ffffff;
+  border-bottom: 1px solid #e6d8f4;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1rem;
   padding: 1rem;
-  border-bottom: 1px solid #ccc;
 }
 
 nav a {
   text-decoration: none;
-  color: #6a0dad;
+  color: #7e57c2;
   font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e6c98f;
 }
 
 main {
   padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  border-left: 6px solid #e6c98f;
+  padding-left: 1rem;
+  color: #7e57c2;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+a {
+  color: #a55fc2;
+}
+
+a:hover {
+  color: #f18cc1;
 }
 
 footer {
-  background: #f5f5f5;
   text-align: center;
-  padding: 1rem;
+  background: #fceef5;
+  padding: 1.5rem;
   font-size: 0.9rem;
-  color: #777;
+  color: #888;
+}
+
+img.gif {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(126, 87, 194, 0.3);
 }
