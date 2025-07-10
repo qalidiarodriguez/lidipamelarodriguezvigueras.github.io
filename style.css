@@ -1,72 +1,103 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lidia Pamela – QA Engineer Femenina & STEM Queen</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <div class="hero">
-      <img src="images/foto-elegante.png" alt="Lidia Pamela" class="foto-perfil" />
-      <h1>Lidia Pamela Rodríguez Vigueras</h1>
-      <p class="subtitulo">QA Engineer | Fundadora de PamSTEM | QA Queen 👑</p>
-      <p class="frase">"El cuidado también crea tecnología"</p>
-    </div>
-  </header>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fffafc;
+  color: #333;
+  scroll-behavior: smooth;
+}
 
-  <nav>
-    <a href="#sobre">Sobre mí</a>
-    <a href="#proyectos">Proyectos QA</a>
-    <a href="#pamstem">PamSTEM</a>
-    <a href="#ediciones">Ediciones</a>
-    <a href="#queen">QA Queen</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+header {
+  background: linear-gradient(to bottom, #fcddec, #e6d8f4);
+  text-align: center;
+  padding: 3rem 1rem;
+}
 
-  <main>
-    <section id="sobre">
-      <h2>Sobre mí</h2>
-      <p>Soy QA Engineer, madre, creadora y creyente. Me apasiona enseñar, automatizar, crear contenido educativo y construir espacios donde las niñas y mujeres se vean como líderes en tecnología y STEM. Creo en el poder de lo femenino como fuerza creadora y transformadora del mundo, con impacto eterno.</p>
-    </section>
+.hero img.foto-perfil {
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #e6c98f;
+  margin-bottom: 1rem;
+}
 
-    <section id="proyectos">
-      <h2>Proyectos QA</h2>
-      <ul>
-        <li><strong>Postman</strong>: Tests con REST APIs</li>
-        <li><strong>PyCharm</strong>: Automatización con Python</li>
-        <li><strong>Selenium</strong>: Pruebas de interfaz web</li>
-        <li><strong>QA Manual</strong>: Casos de prueba y reporte de bugs</li>
-      </ul>
-      <img src="images/proyectos.gif" alt="Gif animado QA" class="gif" />
-    </section>
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #7e57c2;
+}
 
-    <section id="pamstem">
-      <h2>PamSTEM</h2>
-      <p>Una comunidad que inspira a mujeres cuidadoras a estudiar carreras STEM. Lideramos con ternura, con ciencia y con visión de futuro.</p>
-    </section>
+.subtitulo {
+  font-size: 1.2rem;
+  color: #a55fc2;
+}
 
-    <section id="ediciones">
-      <h2>PamSTEM Ediciones</h2>
-      <p>Ebooks de educación STEM con enfoque femenino, para infancias y familias. Creamos recursos con ciencia, belleza y amor.</p>
-    </section>
+.frase {
+  font-style: italic;
+  margin-top: 0.5rem;
+  color: #a789b5;
+}
 
-    <section id="queen">
-      <h2>QA Queen</h2>
-      <p>Mi alter ego profesional. Aquí comparto contenido técnico, portafolio y herramientas para otras mujeres que quieren brillar en QA.</p>
-    </section>
+nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e6d8f4;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
 
-    <section id="contacto">
-      <h2>Contacto</h2>
-      <p>📧 pamstem.contacto@gmail.com</p>
-      <p>🔗 <a href="https://linkedin.com/in/lidipamelarodriguezvigueras" target="_blank">LinkedIn</a></p>
-      <p>💜 Instagram: @pamstem | @qa.queen.tech</p>
-    </section>
-  </main>
+nav a {
+  text-decoration: none;
+  color: #7e57c2;
+  font-weight: bold;
+  transition: color 0.3s;
+}
 
-  <footer>
-    <p>© 2025 Lidia Pamela – PamSTEM. Todos los derechos reservados.</p>
-  </footer>
-</body>
-</html>
+nav a:hover {
+  color: #e6c98f;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section h2 {
+  border-left: 6px solid #e6c98f;
+  padding-left: 1rem;
+  color: #7e57c2;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+a {
+  color: #a55fc2;
+}
+
+a:hover {
+  color: #f18cc1;
+}
+
+footer {
+  text-align: center;
+  background: #fceef5;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+img.gif {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(126, 87, 194, 0.3);
+}
