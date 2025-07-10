@@ -173,3 +173,21 @@ footer {
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
+#vision {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #f4e9f9;
+  border-top: 2px dashed #c1a1e2;
+  border-bottom: 2px dashed #c1a1e2;
+}
+
+.vision-frase {
+  font-style: italic;
+  font-weight: 600;
+  color: #7e57c2;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
