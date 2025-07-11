@@ -313,4 +313,111 @@ footer {
     border-radius: 8px;
   }
 }
+/* Estilos para colaboraciones */
+#colaboraciones {
+  background-color: #f9f0fb;
+  padding: 2rem;
+  text-align: center;
+}
+
+#colaboraciones h2 {
+  color: #c179ce;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.descripcion-colaboraciones {
+  font-size: 1.1rem;
+  color: #663c7e;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.grid-colaboraciones {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.colaboracion-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(150, 90, 180, 0.15);
+  text-align: left;
+}
+
+.colaboracion-item h3 {
+  color: #a048af;
+  font-size: 1.3rem;
+}
+
+.colaboracion-item p {
+  font-size: 1rem;
+  color: #4d3a5e;
+}
+
+.colaboracion-item a {
+  color: #a854c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.colaboracion-item a:hover {
+  text-decoration: underline;
+}
+
+/* Reutilizando estilos de impacto */
+#impacto {
+  background-color: #fff6fd;
+  padding: 2rem;
+  text-align: center;
+}
+
+#impacto h2 {
+  color: #d65fa7;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.descripcion-impacto {
+  font-size: 1.1rem;
+  color: #7c4a7e;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.grid-impacto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.impacto-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(232, 166, 210, 0.2);
+  text-align: left;
+}
+
+.impacto-item h3 {
+  color: #af4688;
+  font-size: 1.3rem;
+}
+
+.impacto-item p {
+  font-size: 1rem;
+  color: #4f3455;
+}
+
+.impacto-item a {
+  color: #aa4bcf;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.impacto-item a:hover {
+  text-decoration: underline;
+}
 
