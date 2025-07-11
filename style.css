@@ -257,4 +257,60 @@ footer {
   transform: scale(1.03);
 }
 
+/* Media queries para responsive */
+
+@media (max-width: 768px) {
+  /* Ajustar padding general para pantallas medianas (tablets) */
+  body {
+    padding: 10px;
+  }
+
+  #proyectos-qa {
+    padding: 1rem;
+  }
+
+  .descripcion-qa {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Para celulares, hacer texto más legible y ajustar márgenes */
+
+  body {
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .descripcion-qa {
+    font-size: 0.9rem;
+  }
+
+  .proyecto {
+    padding: 0.5rem;
+  }
+
+  .proyecto h3 {
+    font-size: 1.1rem;
+  }
+
+  .proyecto p {
+    font-size: 0.85rem;
+  }
+
+  #vision .vision-frase {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .imagen-portada-vision {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
 
