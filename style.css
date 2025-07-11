@@ -191,3 +191,16 @@ footer {
   margin: 0 auto;
   font-size: 1.1rem;
 }
+#portada-vision {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.imagen-portada-vision {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(126, 87, 194, 0.25);
+  border: 4px solid #eac5f1;
+}
