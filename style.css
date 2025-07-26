@@ -433,3 +433,18 @@ footer {
   font-size: 1.2rem;
 }
 
+.blog-link {
+  color: #9b59b6; /* lila suave */
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Georgia', serif;
+  background-color: #fceefb;
+  padding: 6px 12px;
+  border-radius: 12px;
+  border: 1px solid #e1bee7;
+  transition: background-color 0.3s ease;
+}
+
+.blog-link:hover {
+  background-color: #f3d9f7;
+}
