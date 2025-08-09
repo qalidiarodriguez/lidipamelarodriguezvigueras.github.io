@@ -1,8 +1,8 @@
-/* ===== PamSTEM estilos ===== */
+/* ===== PamSTEM estilos actualizados ===== */
 
-/* Fondo general */
+/* Fuente y fondo general */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: #ffffff;
   color: #333;
   margin: 0;
@@ -15,11 +15,24 @@ header {
   color: white;
   text-align: center;
   padding: 20px;
+  border-bottom: 4px solid #d4af37; /* línea dorada */
 }
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+/* Navegación */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Secciones */
@@ -32,22 +45,23 @@ section {
 /* Títulos */
 h2, h3 {
   color: #5e4b8b; /* morado oscuro */
+  margin-top: 0;
 }
 
-/* Botones */
-a.boton {
+/* Botones principales */
+a.boton, .btn-pamsteam {
   display: inline-block;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #d4af37; /* dorado */
+  padding: 12px 24px;
+  background-color: #e89982; /* damasco */
   color: white;
-  text-decoration: none;
-  border-radius: 5px;
   font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-a.boton:hover {
-  background-color: #b9972c;
+a.boton:hover, .btn-pamsteam:hover {
+  background-color: #d87e6f;
 }
 
 /* Artículos del blog */
@@ -57,4 +71,13 @@ article {
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #c4a7e7;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
