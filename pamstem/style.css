@@ -81,3 +81,18 @@ footer {
   padding: 15px;
   margin-top: 40px;
 }
+.btn-lila {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #c4a7e7; /* lila suave */
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.btn-lila:hover {
+  background-color: #a987d9; /* lila más oscuro al pasar el mouse */
+}
