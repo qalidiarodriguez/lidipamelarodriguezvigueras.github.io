@@ -448,3 +448,42 @@ footer {
 .blog-link:hover {
   background-color: #f3d9f7;
 }
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+/* Tonos de lila pastel, variando en intensidad */
+
+.btn-lila1 {
+  background-color: #d8b4fe; /* lila claro */
+}
+
+.btn-lila2 {
+  background-color: #c084fc; /* lila medio claro */
+}
+
+.btn-lila3 {
+  background-color: #a855f7; /* lila medio */
+}
+
+.btn-lila4 {
+  background-color: #9333ea; /* lila oscuro */
+}
+
+.btn-lila5 {
+  background-color: #7e22ce; /* lila más oscuro */
+}
+
+/* Efecto hover para todos los botones */
+.btn:hover {
+  filter: brightness(85%);
+  cursor: pointer;
+}
