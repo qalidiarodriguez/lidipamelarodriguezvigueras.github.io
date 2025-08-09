@@ -1,0 +1,60 @@
+/* ===== PamSTEM estilos ===== */
+
+/* Fondo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #c4a7e7; /* lila suave */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Títulos */
+h2, h3 {
+  color: #5e4b8b; /* morado oscuro */
+}
+
+/* Botones */
+a.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #d4af37; /* dorado */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a.boton:hover {
+  background-color: #b9972c;
+}
+
+/* Artículos del blog */
+article {
+  background-color: #f5f5f5; /* gris claro */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
