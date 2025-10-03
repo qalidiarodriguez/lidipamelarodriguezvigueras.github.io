@@ -487,3 +487,52 @@ footer {
   filter: brightness(85%);
   cursor: pointer;
 }
+/* NAV TOGGLE (hamburger) */
+.nav-toggle { text-align: center; margin: 1rem 0; position: relative; }
+
+.hamburger {
+  width: 44px; height: 36px; border: none; background: transparent; cursor: pointer;
+  display: inline-flex; flex-direction: column; justify-content: center; gap: 6px;
+}
+.hamburger span {
+  display: block; height: 4px; border-radius: 3px; background: #7e57c2; width: 36px;
+  transition: transform .25s ease, opacity .25s ease;
+}
+/* animación cuando abierto */
+.hamburger.open span:nth-child(1){ transform: translateY(8px) rotate(45deg); }
+.hamburger.open span:nth-child(2){ opacity: 0; }
+.hamburger.open span:nth-child(3){ transform: translateY(-8px) rotate(-45deg); }
+
+/* menú oculto por defecto */
+.menu {
+  display: none;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+
+/* links del menú (estilizados parecido a tus botones lila) */
+.menu-link {
+  display: inline-block;
+  padding: 10px 18px;
+  background: linear-gradient(90deg, #d8b4fe 0%, #a78bfa 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 700;
+  margin: 4px 0;
+  width: 90%;
+  max-width: 280px;
+  text-align: center;
+}
+
+/* cuando abierto mostrar en formato column (o fila en pantallas grandes) */
+.menu.open { display: flex; }
+
+/* responsive: menú horizontal en pantallas anchas */
+@media (min-width: 900px) {
+  .menu { display: flex; flex-direction: row; gap: 10px; }
+  .hamburger { display: none; } /* ocultar hamburger en pantallas grandes */
+  .menu-link { width: auto; margin: 0 6px; }
+}
