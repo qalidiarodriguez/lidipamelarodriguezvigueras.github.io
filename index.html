@@ -6,6 +6,21 @@
   <title>Lidia Pamela Rodriguez Vigueras | QA Engineer & Fundadora PamSTEM</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  <script>
+  const menuBtn = document.getElementById('menuBtn');
+  const mainMenu = document.getElementById('mainMenu');
+
+  menuBtn.addEventListener('click', () => {
+    const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+    menuBtn.setAttribute('aria-expanded', String(!expanded));
+    menuBtn.classList.toggle('open');
+    mainMenu.classList.toggle('open');
+
+    // accesibilidad
+    mainMenu.setAttribute('aria-hidden', String(expanded));
+  });
+</script>
+
 <body>
   <header>
     <div class="hero">
