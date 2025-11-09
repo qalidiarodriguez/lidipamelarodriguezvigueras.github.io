@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
@@ -6,21 +6,6 @@
   <title>Lidia Pamela Rodriguez Vigueras | QA Engineer & Fundadora PamSTEM</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-  <script>
-  const menuBtn = document.getElementById('menuBtn');
-  const mainMenu = document.getElementById('mainMenu');
-
-  menuBtn.addEventListener('click', () => {
-    const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
-    menuBtn.setAttribute('aria-expanded', String(!expanded));
-    menuBtn.classList.toggle('open');
-    mainMenu.classList.toggle('open');
-
-    // accesibilidad
-    mainMenu.setAttribute('aria-hidden', String(expanded));
-  });
-</script>
-
 <body>
   <header>
     <div class="hero">
@@ -33,41 +18,60 @@
       <p class="frase">"El cuidado también crea tecnología"</p>
     </div>
   </header>
-<!-- NAV TOGGLE -->
-<div class="nav-toggle">
-  <button id="menuBtn" class="hamburger" aria-label="Abrir menú" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
 
-  <nav id="mainMenu" class="menu" aria-hidden="true">
-    <!-- QA primero -->
-    <a href="qa/index.html" class="menu-link">QA Queen</a>
-    <a href="pamstem/index.html" class="menu-link">PamSTEM</a>
-    <a href="pamstemediciones/index.html" class="menu-link">PamSTEM Ediciones</a>
-    <a href="impactoyservicio/index.html" class="menu-link">Impacto y Servicio</a>
-    <a href="contacto/index.html" class="menu-link">Contacto</a>
-  </nav>
-</div>
-  <section id="video-cv" style="text-align:center; margin: 50px 0;">
-  <h2 style="color:#c4a7e7; font-family:'Quicksand', sans-serif;">🎥 Mi Video CV</h2>
-  <p style="max-width:700px; margin:auto; font-family:'Quicksand', sans-serif;">
-    Conóceme en menos de dos minutos: mi historia, mi visión y cómo puedo aportar al equipo como QA Engineer.
-  </p>
-  <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; margin-top:20px;">
-    <iframe 
-      src="https://www.youtube.com/embed/ZptX-WqOCms" 
-      title="Video CV Lidia Pamela Rodríguez" 
-      frameborder="0" 
-      allowfullscreen
-      style="position:absolute; top:0; left:0; width:100%; height:100%;">
-    </iframe>
+  <!-- NAV TOGGLE -->
+  <div class="nav-toggle">
+    <button id="menuBtn" class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="mainMenu" class="menu" aria-hidden="true">
+      <!-- QA primero -->
+      <a href="qa/index.html" class="menu-link">QA Queen</a>
+      <a href="pamstem/index.html" class="menu-link">PamSTEM</a>
+      <a href="pamstemediciones/index.html" class="menu-link">PamSTEM Ediciones</a>
+      <a href="impactoyservicio/index.html" class="menu-link">Impacto y Servicio</a>
+      <a href="contacto/index.html" class="menu-link">Contacto</a>
+    </nav>
   </div>
-</section>
-<main>
-    <section id="perfil" class="perfil">
-  <h3>Perfil Profesional</h3>
-  <p class="cargo">QA Engineer certificada · Fundadora de PamSTEM · QA Queen</p>
 
+  <main>
+    <section id="video-cv" style="text-align:center; margin: 50px 0;">
+      <h2 style="color:#c4a7e7; font-family:'Quicksand', sans-serif;">🎥 Mi Video CV</h2>
+      <p style="max-width:700px; margin:auto; font-family:'Quicksand', sans-serif;">
+        Conóceme en menos de dos minutos: mi historia, mi visión y cómo puedo aportar al equipo como QA Engineer.
+      </p>
+      <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; margin-top:20px;">
+        <iframe 
+          src="https://www.youtube.com/embed/ZptX-WqOCms" 
+          title="Video CV Lidia Pamela Rodríguez" 
+          frameborder="0" 
+          allowfullscreen
+          style="position:absolute; top:0; left:0; width:100%; height:100%;">
+        </iframe>
+      </div>
+    </section>
+    <section id="perfil" class="perfil">
+      <h3>Perfil Profesional</h3>
+      <p class="cargo">QA Engineer certificada · Fundadora de PamSTEM · QA Queen</p>
+    </section>
+  </main>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mainMenu = document.getElementById('mainMenu');
+
+    menuBtn.addEventListener('click', () => {
+      const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!expanded));
+      menuBtn.classList.toggle('open');
+      mainMenu.classList.toggle('open');
+      mainMenu.setAttribute('aria-hidden', String(expanded));
+    });
+  </script>
+</body>
+</html>
+<section>
   <p class="resumen">
     Soy QA Engineer certificada con formación práctica en automatización y pruebas funcionales. Me apasiona garantizar software de calidad a través de procesos claros, rigurosos y empáticos. 
     Mi trabajo combina la atención al detalle técnica con una visión humana: creo que el cuidado también crea tecnología.
