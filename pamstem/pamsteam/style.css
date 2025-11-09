@@ -1,0 +1,90 @@
+/* ==== PamSTEAM ==== */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  color: var(--lila-oscuro);
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #7a6b8a;
+  font-size: 1.1rem;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--lila-oscuro);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.volver:hover {
+  background-color: var(--lila-suave);
+  color: var(--lila-oscuro);
+}
+
+/* Galería */
+.galeria {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.galeria h2 {
+  color: var(--lila-oscuro);
+  margin-bottom: 20px;
+}
+
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.proyecto {
+  background-color: #faf7fb;
+  border-radius: 20px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(160, 130, 190, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyecto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 14px rgba(160, 130, 190, 0.25);
+}
+
+.proyecto img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.proyecto h3 {
+  color: var(--lila-oscuro);
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.proyecto p {
+  color: #6b5b7a;
+  font-size: 0.95rem;
+}
+
+.mensaje-final {
+  text-align: center;
+  font-style: italic;
+  color: #7b648b;
+  padding: 30px;
+}
