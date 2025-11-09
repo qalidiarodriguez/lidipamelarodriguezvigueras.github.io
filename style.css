@@ -536,3 +536,29 @@ footer {
   .hamburger { display: none; } /* ocultar hamburger en pantallas grandes */
   .menu-link { width: auto; margin: 0 6px; }
 }
+/* --- Menú centrado técnico-femenino --- */
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #f6f0fa; /* fondo suave lila claro */
+  padding: 10px 25px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(200, 160, 255, 0.25);
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.menu-link {
+  color: #5c2d91;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.menu-link:hover {
+  color: #d1a1ff;
+  transform: scale(1.05);
+}
