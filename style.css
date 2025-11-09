@@ -562,3 +562,9 @@ footer {
   color: #d1a1ff;
   transform: scale(1.05);
 }
+:root {
+  --lila-oscuro: #7d5ba6;
+  --lila-suave: #c7b7dd;
+  --blanco: #ffffff;
+  --gris-texto: #444;
+}
