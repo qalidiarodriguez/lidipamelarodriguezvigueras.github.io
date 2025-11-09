@@ -96,3 +96,25 @@ footer {
 .btn-lila:hover {
   background-color: #a987d9; /* lila más oscuro al pasar el mouse */
 }
+.boton-lila {
+  display: inline-block;
+  background-color: #c8a2c8; /* lila suave */
+  color: white;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(200, 162, 200, 0.4);
+}
+
+.boton-lila:hover {
+  background-color: #b07ab0; /* tono lila más oscuro */
+  transform: translateY(-3px);
+}
+
+.botones-principales {
+  text-align: center;
+  margin-top: 40px;
+}
