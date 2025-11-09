@@ -568,3 +568,34 @@ footer {
   --blanco: #ffffff;
   --gris-texto: #444;
 }
+section {
+  text-align: center;
+  margin: 60px auto;
+  padding: 40px;
+  max-width: 800px;
+  background-color: var(--blanco);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(125, 91, 166, 0.2);
+}
+
+section h2 {
+  color: var(--lila-oscuro);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  color: var(--gris-texto);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+section a {
+  color: var(--lila-oscuro);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
