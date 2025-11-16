@@ -147,6 +147,7 @@ footer {
   border-radius: 20px;
   box-shadow: 0 0 15px rgba(150, 90, 180, 0.15);
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 #video-pamstem h2 {
@@ -157,7 +158,26 @@ footer {
 #video-pamstem p {
   font-size: 1.1rem;
   color: #5e3d8a;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 400px; /* más grande pero controlado */
+  aspect-ratio: 9 / 16; /* mantiene forma vertical */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .video-container {
