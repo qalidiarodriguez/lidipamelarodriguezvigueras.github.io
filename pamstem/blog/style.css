@@ -28,3 +28,6 @@ article {
 article:hover {
   transform: scale(1.02);
 }
+body {
+  background: #faf5ff;
+}
