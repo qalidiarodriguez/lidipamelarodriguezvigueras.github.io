@@ -488,15 +488,6 @@ footer {
   cursor: pointer;
 }
 
-/* cuando abierto mostrar en formato column (o fila en pantallas grandes) */
-.menu.open { display: flex; }
-
-/* responsive: menú horizontal en pantallas anchas */
-@media (min-width: 900px) {
-  .menu { display: flex; flex-direction: row; gap: 10px; }
-  .hamburger { display: none; } /* ocultar hamburger en pantallas grandes */
-  .menu-link { width: auto; margin: 0 6px; }
-}
 /* --- Menú centrado técnico-femenino --- */
 .menu {
   display: flex;
