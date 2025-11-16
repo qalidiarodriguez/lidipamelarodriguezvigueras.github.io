@@ -593,3 +593,9 @@ section a {
 section a:hover {
   text-decoration: underline;
 }
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+}
