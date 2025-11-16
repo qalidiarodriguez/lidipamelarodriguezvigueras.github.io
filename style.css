@@ -599,3 +599,19 @@ section a:hover {
   text-align: center;
   line-height: 1.8;
 }
+.section {
+  padding: 40px 20px;
+}
+h2 {
+  color: #6a4fb3; /* lila profundo */
+  font-size: 2rem;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+p, h2 {
+  transition: 0.3s ease-in-out;
+}
+
+p:hover {
+  transform: scale(1.01);
+}
