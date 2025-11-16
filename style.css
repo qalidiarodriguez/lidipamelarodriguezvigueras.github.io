@@ -599,3 +599,30 @@ section a {
 section a:hover {
   text-decoration: underline;
 }
+/* ===== Estilo para secciones de misión, visión, etc. ===== */
+
+section {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 900px;
+  color: #6b21a8; /* lila oscuro */
+  font-family: 'Quicksand', sans-serif;
+}
+
+section h2 {
+  color: #7e22ce; /* un tono un poco más claro para títulos */
+  font-weight: 600;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+/* mensaje final */
+.mensaje-prevencion {
+  font-weight: bold;
+  color: #a21caf;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
