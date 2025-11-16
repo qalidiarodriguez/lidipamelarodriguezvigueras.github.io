@@ -219,13 +219,13 @@ footer {
 /* Título dentro de tarjeta */
 .card h3 {
   margin-bottom: 10px;
-  color: #b85c60;
+  color: white; /* título blanco */
   font-size: 1.4rem;
 }
 
-/* Texto */
 .card p {
-  color: #4a4a4a;
+  color: #ffffffcc; /* texto blanco suave */
   font-size: 1rem;
   line-height: 1.4;
 }
+
