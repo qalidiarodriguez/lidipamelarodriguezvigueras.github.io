@@ -637,3 +637,11 @@ a:hover {
   text-shadow: 0 0 5px #d9c9ff;
   transform: scale(1.03);
 }
+.section {
+  background: #ffffffd9;
+  border: 2px solid #e6dbff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(106, 79, 179, 0.08);
+  padding: 40px 25px;
+  margin-bottom: 30px;
+}
