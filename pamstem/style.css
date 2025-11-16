@@ -168,7 +168,7 @@ footer {
 
 .video-wrapper {
   width: 100%;
-  max-width: 400px; /* más grande pero controlado */
+  max-width: 500px; /* más grande pero controlado */
   aspect-ratio: 9 / 16; /* mantiene forma vertical */
   border-radius: 12px;
   overflow: hidden;
