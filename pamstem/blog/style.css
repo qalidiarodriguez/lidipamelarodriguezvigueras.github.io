@@ -14,3 +14,17 @@
   color: #fffdee;
 }
 
+article {
+  background-color: #c4a7e7;
+  color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(196, 167, 231, 0.9);
+  transition: transform 0.3s ease;
+  border-left: 6px solid #d4af37; /* toque dorado */
+}
+
+article:hover {
+  transform: scale(1.02);
+}
