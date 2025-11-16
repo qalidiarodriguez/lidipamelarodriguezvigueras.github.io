@@ -562,33 +562,6 @@ footer {
   color: #d1a1ff;
   transform: scale(1.05);
 }
-:root {
-  --lila-oscuro: #7d5ba6;
-  --lila-suave: #c7b7dd;
-  --blanco: #ffffff;
-  --gris-texto: #444;
-}
-section {
-  text-align: center;
-  margin: 60px auto;
-  padding: 40px;
-  max-width: 800px;
-  background-color: var(--blanco);
-  border-radius: 20px;
-  box-shadow: 0 4px 10px rgba(125, 91, 166, 0.2);
-}
-
-section h2 {
-  color: var(--lila-oscuro);
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-section p {
-  color: var(--gris-texto);
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
 
 section a {
   color: var(--lila-oscuro);
@@ -625,4 +598,46 @@ section p {
   color: #a21caf;
   margin-top: 20px;
   font-size: 1.2em;
+}
+/* ==== Estilo coherente para todas las secciones generales ==== */
+
+section {
+  text-align: center;
+  margin: 50px auto;
+  padding: 35px;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(126, 87, 194, 0.2);
+  border: 2px solid #f3e7ff;
+}
+
+section h2 {
+  color: #7e57c2;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #d7b6f3;
+  padding-bottom: 0.4rem;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section p {
+  color: #5a4578;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+/* Links dentro de secciones */
+section a {
+  color: #7e57c2;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
 }
