@@ -615,3 +615,25 @@ p, h2 {
 p:hover {
   transform: scale(1.01);
 }
+body {
+  background: linear-gradient(to bottom, #f8f5fc, #ffffff);
+}
+h2 {
+  color: #6a4fb3;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #c3a9ff, #6a4fb3);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+p {
+  color: #443c55;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+a:hover {
+  color: #6a4fb3;
+  text-shadow: 0 0 5px #d9c9ff;
+  transform: scale(1.03);
+}
