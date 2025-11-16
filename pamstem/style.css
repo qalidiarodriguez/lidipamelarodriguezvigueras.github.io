@@ -141,3 +141,26 @@ footer {
   color: var(--lila-oscuro);
   transform: scale(1.05);
 }
+#video-pamstem {
+  background-color: #f9f0fb;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(150, 90, 180, 0.15);
+  margin-bottom: 2rem;
+}
+
+#video-pamstem h2 {
+  color: #8b45c6;
+  margin-bottom: 1rem;
+}
+
+#video-pamstem p {
+  font-size: 1.1rem;
+  color: #5e3d8a;
+  margin-bottom: 1.5rem;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
