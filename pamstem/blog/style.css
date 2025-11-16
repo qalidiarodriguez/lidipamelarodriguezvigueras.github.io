@@ -1,1 +1,16 @@
+.blog-header {
+  background: #c4a7e7;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(196,167,231,0.8);
+  margin-bottom: 40px;
+}
+
+.blog-header p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #fffdee;
+}
 
