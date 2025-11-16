@@ -645,3 +645,10 @@ a:hover {
   padding: 40px 25px;
   margin-bottom: 30px;
 }
+#video-cv {
+  background: #fdfaff;
+  padding: 40px 20px;
+  border-radius: 14px;
+  border: 2px solid #e4d5f5;
+  box-shadow: 0px 4px 10px rgba(190, 144, 212, 0.25);
+}
