@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diplomado Mujeres Líderes | PamSTEM Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
+  body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4edff;
+    color: #3a3a3a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+  }
+
+  header {
+    background-color: #d8b4fe;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 4px solid #a855f7;
+    color: white;
+  }
+
+  h1 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.1em;
+    text-align: justify;
+  }
+
+  a {
+    color: #7e22ce;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  article {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.25);
+  }
+
+  article p {
+    margin-bottom: 20px;
+  }
+
+  strong {
+    color: #7e22ce;
+    font-weight: 700;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  h3 {
+    color: #9333ea;
+    margin-top: 30px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d8b4fe;
+    border-top: 4px solid #a855f7;
+    font-size: 0.9em;
+    color: white;
+  }
+
+  .volver {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #9333ea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+
+  .volver:hover {
+    background-color: #7e22ce;
+    transform: scale(1.05);
+  }
+    body {
+  color: #3a3a3a; /* texto general */
+}
+
+article {
+  background: #ffffff; /* fondo blanco para contraste */
+  color: #3a3a3a; /* texto oscuro */
+}
+
+article p, article li {
+  color: #3a3a3a; /* garantiza legibilidad */
+}
+article a {
+  color: #7e22ce; /* enlaces visibles */
+  text-decoration: underline;
+}
+.subheader {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+</style>
+
+</head>
+<body>
+  <header>
+    <h1>✨Nuevo Proyecto Educativo: Clases 1:1 Gratuitas para Usar Plataformas de Historia Familiar🌿</h1>
+    <div class="subheader">
+  <p><em>Publicado el 8 de diciembre de 2025 — por Lidia Pamela Rodriguez Vigueras</em></p>
+  <a href="index.html" class="volver">← Volver al blog</a>
+</div>
+
+  </header>
+
+  <main>
+    <article>
+      <p>
+        En los últimos años he trabajado combinando tecnología, educación, accesibilidad digital y métodos de aprendizaje inteligente.
+        Desde esta experiencia, decidí abrir un proyecto de servicio donde ofrezco clases 1:1 gratuitas para ayudar a personas a utilizar
+        herramientas de genealogía y organización familiar en línea.
+      </p>
+
+      <p>
+        Muchas personas desean participar en proyectos de historia familiar, preservar sus recuerdos, organizar archivos, 
+        aprender indexación o simplemente conocer mejor las plataformas disponibles… pero no siempre saben por dónde empezar.
+        Mi objetivo es hacer que esta tecnología sea accesible, clara y amigable para todas las edades.
+      </p>
+
+      <h3>🎓 ¿Qué voy a enseñar?</h3>
+      <p>
+       Las clases son personalizadas y adaptadas según el nivel de cada persona.
+
+       ⭐ Fundamentos digitales
+       Crear una cuenta en la plataforma
+       Navegar por el árbol familiar
+       Subir fotos, documentos y notas
+       Gestionar perfiles y relaciones familiares
+
+       ⭐ Nivel intermedio
+       Cómo buscar registros históricos
+       Cómo organizar información
+       Cómo depurar datos duplicados (con técnicas de QA aplicadas)
+       Cómo usar la app móvil
+
+       ⭐ Nivel avanzado
+       Introducción a la indexación
+       Análisis de información
+       Búsqueda en bases externas
+       Uso de IA con propósito educativo:
+       escribir historias familiares,
+       traducir textos antiguos,
+       generar preguntas para entrevistas,
+       organizar información compleja.
+     </p>
+      <h3>🧠 Metodología PamSTEM</h3>
+  <p>      
+      Mi método integra:
+      Aprendizaje visual y por pasos
+      Técnicas de QA para validar datos
+      Prompt engineering para apoyar búsquedas
+      Enseñanza suave, clara y paciente
+      Materiales personalizados según cada estudiante
+      La idea es que cualquier persona, incluso sin experiencia previa, pueda avanzar con confianza y disfrutar el proceso.
+  
+
+      🎥 Clases en vivo y transmisiones
+       Haré sesiones en vivo en Twitch donde enseñaré a usar distintas funciones y herramientas.
+       Para quienes no puedan asistir, subiré las clases a YouTube, para que estén siempre disponibles.
+      🌐 ¿Por qué este proyecto?
+       Porque creo profundamente en la educación accesible, la inclusión digital y la tecnología al servicio de las personas.
+       La historia familiar conecta a generaciones, preserva recuerdos y fortalece la identidad personal.
+       Y quiero contribuir a que más personas puedan aprovechar estas herramientas sin miedo ni frustración.
+      🤝 ¿Quieres una clase gratuita?
+        Puedes escribirme directamente para agendar una sesión.
+        No se requiere experiencia previa ni conocimientos técnicos.
+        Es un proyecto de servicio, hecho con dedicación, ética profesional y profundo respeto por cada persona que participa.
+
+       Gracias por acompañarme en esta nueva etapa de PamSTEM.
+       Seguimos adelante, aprendiendo y creando juntas/os. 🌿✨
+    </p>
+</article>
+  </main>
+
+  <footer>
+    <p>© 2025 PamSTEM Blog | Escrito por Lidia Pamela Rodriguez Vigueras</p>
+  </footer>
+</body>
+</html>
