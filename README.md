@@ -1,4 +1,4 @@
-# 🌸 Sitio Web Profesional de Lidia Pamela Rodríguez Vigueras
+# 🌸 Sitio Web Profesional de Lidia Pamela Rodriguez Vigueras
 
 ¡Hola! Soy **Lidia Pamela**, QA Engineer, fundadora de **PamSTEM** y creadora de **PamSTEM Ediciones**. Esta es mi página web personal, donde comparto mi trabajo profesional, mi visión sobre la tecnología con enfoque humano y femenino, y recursos educativos para niñas y mujeres.
 
